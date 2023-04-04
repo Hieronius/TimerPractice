@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var timerLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
     
     var count = 0
     var regularTimer = Timer()
@@ -27,15 +27,33 @@ class ViewController: UIViewController {
     @objc func handleRegularTimer() {
         count += 1
         let time = secondToHoursMinutesToSeconds(seconds: count)
-        timerLabel.text = "\(String(format: "0%1d", time.0)): \(String(format: "0%1d", time.1)): \(String(format: "0%1d", time.2))"
+//        let timeString = makeTimeString(hours: time.0, minutes: time.1, seconds: time.2)
+//        timerLabel.text = "\(timeString)"
+        
+        
+        timeLabel.text = "\(String(format: "%02d", time.0)): \(String(format: "%02d", time.1)): \(String(format: "%02d", time.2))"
+        
+        
+        // \((String(format: "0%1d", time.2).formateArticleDate))
     }
     
     func secondToHoursMinutesToSeconds(seconds: Int) -> (Int, Int, Int) {
         return ((seconds / 3600), ((seconds % 3600) / 60), ((seconds % 3600) % 60))
     }
+    
+//    func makeTimeString(hours: Int, minutes: Int, seconds: Int) -> String {
+//        var timeString = ""
+//        timeString += String(format: "%02d", hours)
+//        timeString += " : "
+//        timeString += String(format: "%02d", minutes)
+//        timeString += " : "
+//        timeString += String(format: "%02d", seconds)
+//        return timeString
+//    }
 
 
     @IBAction func timerButtonPressed(_ sender: Any) {
+        createRegularTimer()
     }
 }
 

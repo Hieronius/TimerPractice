@@ -13,6 +13,7 @@
 		DDB6E77629DC77B200824511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB6E77429DC77B200824511 /* Main.storyboard */; };
 		DDB6E77829DC77B500824511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB6E77729DC77B500824511 /* Assets.xcassets */; };
 		DDB6E77B29DC77B500824511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB6E77929DC77B500824511 /* LaunchScreen.storyboard */; };
+		DDB6E78329DC7DDA00824511 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6E78229DC7DDA00824511 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DDB6E77729DC77B500824511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDB6E77A29DC77B500824511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDB6E77C29DC77B500824511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB6E78229DC7DDA00824511 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				DDB6E76E29DC77B200824511 /* AppDelegate.swift */,
 				DDB6E77029DC77B200824511 /* SceneDelegate.swift */,
 				DDB6E77229DC77B200824511 /* ViewController.swift */,
+				DDB6E78229DC7DDA00824511 /* String+Extension.swift */,
 				DDB6E77429DC77B200824511 /* Main.storyboard */,
 				DDB6E77729DC77B500824511 /* Assets.xcassets */,
 				DDB6E77929DC77B500824511 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB6E78329DC7DDA00824511 /* String+Extension.swift in Sources */,
 				DDB6E77329DC77B200824511 /* ViewController.swift in Sources */,
 				DDB6E76F29DC77B200824511 /* AppDelegate.swift in Sources */,
 				DDB6E77129DC77B200824511 /* SceneDelegate.swift in Sources */,

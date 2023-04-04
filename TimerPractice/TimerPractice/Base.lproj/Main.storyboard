@@ -58,7 +58,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="timerLabel" destination="sO0-hx-4op" id="4qg-T3-oip"/>
+                        <outlet property="timeLabel" destination="sO0-hx-4op" id="4qg-T3-oip"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
