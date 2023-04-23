@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         timeLabel.text = "\(String(format: "%02d", time.0)): \(String(format: "%02d", time.1)): \(String(format: "%02d", time.2))"
         print("test commit 19.04.23=")
         print("test commit 22.04.23")
+        print("test commit 23.04.23")
         
         
         // \((String(format: "0%1d", time.2).formateArticleDate))
