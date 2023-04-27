@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         print("test commit 23.04.23")
         print("test commit 24.04.23")
         print("test commit 25.04.23")
+        print("test commit 26.04.23")
         
         
         // \((String(format: "0%1d", time.2).formateArticleDate))
